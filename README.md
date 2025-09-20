@@ -1,24 +1,38 @@
 # 📧 Email Auto-Reply Bot
 
-An automation tool that reads unread emails and sends smart replies automatically.  
-Built with **Python + Gmail API + (optional) OpenAI**.
+Automate your inbox! This Python tool reads unread emails and sends smart replies automatically.  
+Built with **Python**, **Gmail API**, and optional **OpenAI integration** for AI-powered responses.
 
-## 🔹 Features
+---
+
+## 🔧 Features
 - Check unread emails
 - Classify messages (spam / inquiry / urgent)
-- Auto-reply with custom templates or AI
-- Works with Gmail API
+- Auto-reply with **custom templates** or **AI-generated replies**
+- Gmail API integration
+- Optional: Google Sheets tracking for processed emails
 
-## 🚀 How to Run
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/email-bot.git
+---
 
-Install dependencies:pip install -r requirements.txt
-Run:python main.py
+## 🚀 Installation
 
+1. **Clone the repo**
+```bash
+git clone https://github.com/mGhs-automation/auto-reply-bot.git
+cd auto-reply-bot
+
+pip install -r requirements.txt
+
+python main.py
 
 📂 Example Output
+
 Found 4 unread emails.
 Processing email from John with subject 'Need automation help'...
 Reply sent!
+
+⚡ Optional AI Integration
+
+Add your OpenAI API key to use auto-generated replies
+
+Modify main.py to enable AI response logic
